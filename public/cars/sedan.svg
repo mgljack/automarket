@@ -1,0 +1,47 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#f8fafc"/>
+  
+  <!-- Car Body -->
+  <path d="M150 250 L650 250 L650 280 L620 280 L620 320 L580 320 L580 280 L220 280 L220 320 L180 320 L180 280 L150 280 Z" fill="#4f46e5"/>
+  
+  <!-- Car Roof -->
+  <path d="M200 250 L600 250 L600 200 L580 200 L580 180 L220 180 L220 200 L200 200 Z" fill="#6366f1"/>
+  
+  <!-- Windshield -->
+  <path d="M220 200 L580 200 L580 180 L220 180 Z" fill="#e0e7ff" opacity="0.8"/>
+  
+  <!-- Windows -->
+  <rect x="240" y="200" width="80" height="60" fill="#e0e7ff" opacity="0.6"/>
+  <rect x="480" y="200" width="80" height="60" fill="#e0e7ff" opacity="0.6"/>
+  
+  <!-- Wheels -->
+  <circle cx="200" cy="320" r="25" fill="#374151"/>
+  <circle cx="600" cy="320" r="25" fill="#374151"/>
+  <circle cx="200" cy="320" r="18" fill="#6b7280"/>
+  <circle cx="600" cy="320" r="18" fill="#6b7280"/>
+  
+  <!-- Wheel Details -->
+  <circle cx="200" cy="320" r="12" fill="#9ca3af"/>
+  <circle cx="600" cy="320" r="12" fill="#9ca3af"/>
+  <circle cx="200" cy="320" r="6" fill="#d1d5db"/>
+  <circle cx="600" cy="320" r="6" fill="#d1d5db"/>
+  
+  <!-- Headlights -->
+  <circle cx="150" cy="240" r="8" fill="#fbbf24"/>
+  <circle cx="150" cy="240" r="5" fill="#fef3c7"/>
+  
+  <!-- Taillights -->
+  <circle cx="650" cy="240" r="8" fill="#ef4444"/>
+  <circle cx="650" cy="240" r="5" fill="#fecaca"/>
+  
+  <!-- Door Handles -->
+  <rect x="300" y="260" width="15" height="3" fill="#1f2937" rx="1.5"/>
+  <rect x="485" y="260" width="15" height="3" fill="#1f2937" rx="1.5"/>
+  
+  <!-- Grille -->
+  <rect x="160" y="230" width="40" height="20" fill="#1f2937" rx="2"/>
+  <line x1="170" y1="230" x2="170" y2="250" stroke="#4b5563" stroke-width="1"/>
+  <line x1="180" y1="230" x2="180" y2="250" stroke="#4b5563" stroke-width="1"/>
+  <line x1="190" y1="230" x2="190" y2="250" stroke="#4b5563" stroke-width="1"/>
+</svg>

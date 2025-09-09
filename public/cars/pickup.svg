@@ -1,0 +1,60 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#f8fafc"/>
+  
+  <!-- Car Body (Pickup style) -->
+  <path d="M150 280 L650 280 L650 310 L620 310 L620 350 L580 350 L580 310 L220 310 L220 350 L180 350 L180 310 L150 310 Z" fill="#f59e0b"/>
+  
+  <!-- Car Roof (Pickup cab) -->
+  <path d="M200 280 L450 280 L450 220 L430 220 L430 200 L220 200 L220 220 L200 220 Z" fill="#d97706"/>
+  
+  <!-- Pickup Bed -->
+  <rect x="450" y="280" width="200" height="70" fill="#92400e"/>
+  <rect x="450" y="280" width="200" height="10" fill="#1f2937"/>
+  
+  <!-- Windshield -->
+  <path d="M220 220 L430 220 L430 200 L220 200 Z" fill="#fef3c7" opacity="0.8"/>
+  
+  <!-- Windows -->
+  <rect x="240" y="220" width="80" height="60" fill="#fef3c7" opacity="0.6"/>
+  <rect x="350" y="220" width="60" height="60" fill="#fef3c7" opacity="0.6"/>
+  
+  <!-- Wheels (Large for pickup) -->
+  <circle cx="200" cy="350" r="30" fill="#374151"/>
+  <circle cx="600" cy="350" r="30" fill="#374151"/>
+  <circle cx="200" cy="350" r="22" fill="#6b7280"/>
+  <circle cx="600" cy="350" r="22" fill="#6b7280"/>
+  
+  <!-- Wheel Details -->
+  <circle cx="200" cy="350" r="15" fill="#9ca3af"/>
+  <circle cx="600" cy="350" r="15" fill="#9ca3af"/>
+  <circle cx="200" cy="350" r="8" fill="#d1d5db"/>
+  <circle cx="600" cy="350" r="8" fill="#d1d5db"/>
+  
+  <!-- Headlights -->
+  <circle cx="150" cy="270" r="10" fill="#fbbf24"/>
+  <circle cx="150" cy="270" r="6" fill="#fef3c7"/>
+  
+  <!-- Taillights -->
+  <circle cx="650" cy="270" r="10" fill="#ef4444"/>
+  <circle cx="650" cy="270" r="6" fill="#fecaca"/>
+  
+  <!-- Door Handles -->
+  <rect x="300" y="290" width="15" height="3" fill="#1f2937" rx="1.5"/>
+  <rect x="380" y="290" width="15" height="3" fill="#1f2937" rx="1.5"/>
+  
+  <!-- Grille -->
+  <rect x="160" y="250" width="40" height="20" fill="#1f2937" rx="2"/>
+  <line x1="170" y1="250" x2="170" y2="270" stroke="#4b5563" stroke-width="1"/>
+  <line x1="180" y1="250" x2="180" y2="270" stroke="#4b5563" stroke-width="1"/>
+  <line x1="190" y1="250" x2="190" y2="270" stroke="#4b5563" stroke-width="1"/>
+  
+  <!-- Pickup Bed Details -->
+  <rect x="460" y="290" width="180" height="5" fill="#1f2937"/>
+  <rect x="460" y="300" width="180" height="5" fill="#1f2937"/>
+  <rect x="460" y="310" width="180" height="5" fill="#1f2937"/>
+  
+  <!-- Tow Hitch -->
+  <rect x="640" y="320" width="10" height="15" fill="#1f2937"/>
+  <circle cx="645" cy="340" r="3" fill="#374151"/>
+</svg>

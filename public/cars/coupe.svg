@@ -1,0 +1,60 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#f8fafc"/>
+  
+  <!-- Car Body (Coupe style) -->
+  <path d="M150 250 L650 250 L650 280 L620 280 L620 320 L580 320 L580 280 L220 280 L220 320 L180 320 L180 280 L150 280 Z" fill="#8b5cf6"/>
+  
+  <!-- Car Roof (Low profile) -->
+  <path d="M200 250 L600 250 L600 220 L580 220 L580 200 L220 200 L220 220 L200 220 Z" fill="#7c3aed"/>
+  
+  <!-- Windshield (Sporty angle) -->
+  <path d="M220 220 L580 220 L580 200 L220 200 Z" fill="#ede9fe" opacity="0.8"/>
+  
+  <!-- Windows (Sporty) -->
+  <rect x="240" y="220" width="80" height="60" fill="#ede9fe" opacity="0.6"/>
+  <rect x="480" y="220" width="80" height="60" fill="#ede9fe" opacity="0.6"/>
+  
+  <!-- Wheels (Sporty) -->
+  <circle cx="200" cy="320" r="25" fill="#374151"/>
+  <circle cx="600" cy="320" r="25" fill="#374151"/>
+  <circle cx="200" cy="320" r="18" fill="#6b7280"/>
+  <circle cx="600" cy="320" r="18" fill="#6b7280"/>
+  
+  <!-- Wheel Details (Sporty rims) -->
+  <circle cx="200" cy="320" r="12" fill="#9ca3af"/>
+  <circle cx="600" cy="320" r="12" fill="#9ca3af"/>
+  <circle cx="200" cy="320" r="6" fill="#d1d5db"/>
+  <circle cx="600" cy="320" r="6" fill="#d1d5db"/>
+  
+  <!-- Sporty Spokes -->
+  <line x1="200" y1="308" x2="200" y2="332" stroke="#6b7280" stroke-width="2"/>
+  <line x1="188" y1="320" x2="212" y2="320" stroke="#6b7280" stroke-width="2"/>
+  <line x1="600" y1="308" x2="600" y2="332" stroke="#6b7280" stroke-width="2"/>
+  <line x1="588" y1="320" x2="612" y2="320" stroke="#6b7280" stroke-width="2"/>
+  
+  <!-- Headlights (Sporty) -->
+  <circle cx="150" cy="240" r="8" fill="#fbbf24"/>
+  <circle cx="150" cy="240" r="5" fill="#fef3c7"/>
+  
+  <!-- Taillights (Sporty) -->
+  <circle cx="650" cy="240" r="8" fill="#ef4444"/>
+  <circle cx="650" cy="240" r="5" fill="#fecaca"/>
+  
+  <!-- Door Handles -->
+  <rect x="300" y="260" width="15" height="3" fill="#1f2937" rx="1.5"/>
+  <rect x="485" y="260" width="15" height="3" fill="#1f2937" rx="1.5"/>
+  
+  <!-- Grille (Sporty) -->
+  <rect x="160" y="230" width="40" height="20" fill="#1f2937" rx="2"/>
+  <line x1="170" y1="230" x2="170" y2="250" stroke="#4b5563" stroke-width="1"/>
+  <line x1="180" y1="230" x2="180" y2="250" stroke="#4b5563" stroke-width="1"/>
+  <line x1="190" y1="230" x2="190" y2="250" stroke="#4b5563" stroke-width="1"/>
+  
+  <!-- Sporty Spoiler -->
+  <rect x="580" y="200" width="20" height="8" fill="#1f2937" rx="4"/>
+  
+  <!-- Side Vents -->
+  <rect x="350" y="270" width="20" height="10" fill="#1f2937" rx="2"/>
+  <rect x="430" y="270" width="20" height="10" fill="#1f2937" rx="2"/>
+</svg>

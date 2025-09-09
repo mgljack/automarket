@@ -1,0 +1,56 @@
+{
+  "endAt": "", 
+  "items": [
+    { 
+      "id": "d1", 
+      "title": "현대 아이오닉5 롱레인지 AWD", 
+      "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=400&h=300&fit=crop&crop=center", 
+      "original": 31800000, 
+      "price": 31400000, 
+      "href": "/cars/c-001", 
+      "badges": ["인기","특가"] 
+    },
+    { 
+      "id": "d2", 
+      "title": "현대 더 뉴 아반떼 AD 1.6 스마트", 
+      "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=300&fit=crop&crop=center", 
+      "original": 13300000, 
+      "price": 12600000, 
+      "href": "/cars/c-002" 
+    },
+    { 
+      "id": "d3", 
+      "title": "르노삼성 SM3 네오 SE", 
+      "image": "https://images.unsplash.com/photo-1549317336-206569e8475c?w=400&h=300&fit=crop&crop=center", 
+      "original": 7100000, 
+      "price": 6800000, 
+      "href": "/cars/c-003" 
+    },
+    { 
+      "id": "d4", 
+      "title": "BMW 3시리즈 320d xDrive", 
+      "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=300&fit=crop&crop=center", 
+      "original": 45000000, 
+      "price": 42000000, 
+      "href": "/cars/c-004", 
+      "badges": ["프리미엄","특가"] 
+    },
+    { 
+      "id": "d5", 
+      "title": "기아 스포티지 1.6 터보", 
+      "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=400&h=300&fit=crop&crop=center", 
+      "original": 18500000, 
+      "price": 17500000, 
+      "href": "/cars/c-005" 
+    },
+    { 
+      "id": "d6", 
+      "title": "토요타 캠리 하이브리드", 
+      "image": "https://images.unsplash.com/photo-1549317336-206569e8475c?w=400&h=300&fit=crop&crop=center", 
+      "original": 28000000, 
+      "price": 26500000, 
+      "href": "/cars/c-006", 
+      "badges": ["절약","특가"] 
+    }
+  ]
+}

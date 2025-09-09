@@ -1,0 +1,178 @@
+{
+  "cars": [
+    {
+      "id": "c-001",
+      "model": "Hyundai Avante AD 1.6",
+      "makeYear": 2018,
+      "importYear": 2021,
+      "mileageKm": 65000,
+      "fuel": "가솔린",
+      "location": "울란바토르",
+      "priceMNT": 23000000,
+      "tier": "premium",
+      "createdAt": "2024-01-15T10:30:00Z",
+      "images": [
+        "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&h=450&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&h=450&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&h=450&fit=crop&crop=center"
+      ],
+      "options": ["오토", "히터시트", "후방카메라", "크루즈컨트롤", "블루투스", "USB포트"],
+      "memo": "자가용으로만 사용, 실내/외관 양호. 최근 소모품 교환. 정기점검 완료. 사고이력 없음.",
+      "seller": {
+        "name": "Бат",
+        "phone": "+976-99112233",
+        "company": "ABC Motors",
+        "location": "UB"
+      }
+    },
+    {
+      "id": "c-002",
+      "model": "Toyota Camry LE",
+      "makeYear": 2020,
+      "importYear": 2021,
+      "mileageKm": 45000,
+      "fuel": "가솔린",
+      "location": "울란바토르",
+      "priceMNT": 18500000,
+      "tier": "plus",
+      "createdAt": "2024-01-14T14:20:00Z",
+      "images": [
+        "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&h=450&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&h=450&fit=crop&crop=center"
+      ],
+      "options": ["에어컨", "파워윈도우", "블루투스", "후방카메라"],
+      "memo": "Well maintained Toyota Camry with low mileage. Single owner, no accidents.",
+      "seller": {
+        "name": "Batbold",
+        "phone": "+976-99112233",
+        "location": "울란바토르"
+      }
+    },
+    {
+      "id": "c-003",
+      "model": "Honda CR-V EX",
+      "makeYear": 2019,
+      "importYear": 2020,
+      "mileageKm": 62000,
+      "fuel": "가솔린",
+      "location": "다르한",
+      "priceMNT": 22500000,
+      "images": [
+        "https://images.unsplash.com/photo-1549317336-206569e8475c?w=800&h=450&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&h=450&fit=crop&crop=center"
+      ],
+      "options": ["가죽시트", "선루프", "내비게이션", "히터시트", "리모트스타트"],
+      "memo": "Excellent condition Honda CR-V with all-wheel drive. Perfect for Mongolian roads.",
+      "seller": {
+        "name": "Sukhbat",
+        "phone": "+976-99223344",
+        "location": "다르한"
+      }
+    },
+    {
+      "id": "c-004",
+      "model": "BMW 3 Series 320i",
+      "makeYear": 2018,
+      "importYear": 2019,
+      "mileageKm": 78000,
+      "fuel": "가솔린",
+      "location": "울란바토르",
+      "priceMNT": 28500000,
+      "images": [
+        "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&h=450&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&h=450&fit=crop&crop=center"
+      ],
+      "options": ["프리미엄사운드", "스포츠패키지", "LED헤드라이트", "키리스엔트리"],
+      "memo": "Luxury BMW 3 Series in excellent condition. Regular maintenance records available.",
+      "seller": {
+        "name": "Enkhjin",
+        "phone": "+976-99334455",
+        "location": "울란바토르"
+      }
+    },
+    {
+      "id": "c-005",
+      "model": "Toyota Prius LE",
+      "makeYear": 2021,
+      "importYear": 2022,
+      "mileageKm": 32000,
+      "fuel": "하이브리드",
+      "location": "에르데넷",
+      "priceMNT": 24500000,
+      "images": [
+        "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800&h=450&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&h=450&fit=crop&crop=center"
+      ],
+      "options": ["하이브리드시스템", "에코모드", "터치스크린", "레인어시스트"],
+      "memo": "Fuel-efficient Toyota Prius hybrid. Great for city driving in Ulaanbaatar.",
+      "seller": {
+        "name": "Tseren",
+        "phone": "+976-99445566",
+        "location": "에르데넷"
+      }
+    },
+    {
+      "id": "c-006",
+      "model": "Nissan X-Trail SV",
+      "makeYear": 2020,
+      "importYear": 2021,
+      "mileageKm": 55000,
+      "fuel": "가솔린",
+      "location": "초이발산",
+      "priceMNT": 19500000,
+      "images": [
+        "https://images.unsplash.com/photo-1549317336-206569e8475c?w=800&h=450&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&h=450&fit=crop&crop=center"
+      ],
+      "options": ["3열시트", "루프레일", "포그라이트", "알로이휠"],
+      "memo": "Spacious Nissan X-Trail perfect for families. 7-seater configuration.",
+      "seller": {
+        "name": "Bold",
+        "phone": "+976-99556677",
+        "location": "초이발산"
+      }
+    },
+    {
+      "id": "c-007",
+      "model": "Hyundai Tucson SE",
+      "makeYear": 2019,
+      "importYear": 2020,
+      "mileageKm": 67000,
+      "fuel": "가솔린",
+      "location": "모뢴",
+      "priceMNT": 17500000,
+      "images": [
+        "https://images.unsplash.com/photo-1549317336-206569e8475c?w=800&h=450&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&h=450&fit=crop&crop=center"
+      ],
+      "options": ["Apple CarPlay", "Android Auto", "블라인드스팟모니터", "후방교차교통알림"],
+      "memo": "Reliable Hyundai Tucson with modern features. Well maintained.",
+      "seller": {
+        "name": "Oyunaa",
+        "phone": "+976-99667788",
+        "location": "모뢴"
+      }
+    },
+    {
+      "id": "c-008",
+      "model": "Mazda CX-5 Touring",
+      "makeYear": 2020,
+      "importYear": 2021,
+      "mileageKm": 48000,
+      "fuel": "가솔린",
+      "location": "울란바토르",
+      "priceMNT": 21500000,
+      "images": [
+        "https://images.unsplash.com/photo-1549317336-206569e8475c?w=800&h=450&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&h=450&fit=crop&crop=center"
+      ],
+      "options": ["Bose사운드시스템", "히터시트", "파워리프게이트", "Mazda Connect"],
+      "memo": "Sporty Mazda CX-5 with excellent handling. Perfect for Mongolian terrain.",
+      "seller": {
+        "name": "Ganbold",
+        "phone": "+976-99778899",
+        "location": "울란바토르"
+      }
+    }
+  ]
+}
