@@ -3,19 +3,20 @@
 import { useState, useEffect } from 'react';
 import CarCard from '@/components/CarCard';
 import { CARS } from '@/lib/data';
-import { Car } from '@/lib/types';
+import { Car } from '@/types/car';
 import { authMock } from '@/lib/auth-mock';
+import { normalize } from '@/lib/normalize';
 
 export default function LikesPage() {
   const [likedCars, setLikedCars] = useState<Car[]>([]);
 
   useEffect(() => {
     const likedCarIds = authMock.getLikedCars();
-    const cars = CARS.filter(car => likedCarIds.includes(car.id));
+    const cars = CARS.filter(car => likedCarIds.includes(car.id)).map(car => normalize(car));
     setLikedCars(cars);
   }, []);
 
-  const handleLikeToggle = (carId: string, isLiked: boolean) => {
+  const handleLikeToggle = (carId: string | number, isLiked: boolean) => {
     if (!isLiked) {
       setLikedCars(prev => prev.filter(car => car.id !== carId));
     }

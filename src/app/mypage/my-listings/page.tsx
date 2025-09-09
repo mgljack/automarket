@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Car } from '@/lib/types';
+import { Car } from '@/types/car';
 import { toUSD, toKm, fromNow } from '@/lib/format';
 
 export default function MyListingsPage() {
@@ -67,13 +67,13 @@ export default function MyListingsPage() {
                   {/* Image */}
                   <div className="relative w-full md:w-48 h-48 md:h-32 flex-shrink-0">
                     <Image
-                      src={car.images[0] || '/cars/sedan.svg'}
+                      src={car.images?.[0] || '/cars/sedan.svg'}
                       alt={`${car.brand} ${car.model}`}
                       fill
                       className="object-cover rounded-xl"
                     />
                     <div className="absolute top-2 left-2">
-                      {getStatusBadge(car.expiresAt)}
+                      {getStatusBadge(new Date(Date.now() + 30 * 24 * 60 * 60 * 1000))}
                     </div>
                   </div>
 
@@ -84,11 +84,11 @@ export default function MyListingsPage() {
                         {car.brand} {car.model} {car.subModel}
                       </h3>
                       <div className="flex items-center space-x-2">
-                        <span className={getListingTypeBadge(car.listingType)}>
-                          {car.listingType}
+                        <span className={getListingTypeBadge(car.listingType || 'General')}>
+                          {car.listingType || 'General'}
                         </span>
                         <button
-                          onClick={() => handleDeleteListing(car.id)}
+                          onClick={() => handleDeleteListing(car.id.toString())}
                           className="text-red-500 hover:text-red-700 p-1"
                         >
                           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -120,7 +120,7 @@ export default function MyListingsPage() {
                     <div className="flex justify-between items-center text-sm text-gray-500">
                       <span>등록일: {fromNow(car.createdAt)}</span>
                       <span>
-                        {Math.ceil((car.expiresAt.getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24))}일 남음
+                        {Math.ceil((new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).getTime() - new Date().getTime()) / (1000 * 60 * 60 * 24))}일 남음
                       </span>
                     </div>
                   </div>

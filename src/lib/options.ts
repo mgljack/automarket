@@ -1,6 +1,6 @@
 import {
   Sun, Car, Gauge, Camera, Wind, Key, Navigation, Thermometer,
-  Fan, Armchair, SunDim, AlarmTriangle, AirVent, SteeringWheel,
+  Fan, Armchair, SunDim, AlertTriangle, AirVent, Disc,
   Snowflake, Wifi, Bluetooth, BatteryCharging, Shield, ParkingCircle
 } from "lucide-react";
 
@@ -22,9 +22,9 @@ export const OptionDict: Record<OptionKey, { label: string; icon: any; keywords:
   ventilatedSeat: { label: "통풍시트",       icon: Fan,           keywords: ["통풍시트"], cat:"편의" },
   leatherSeat:    { label: "가죽시트",       icon: Armchair,      keywords: ["가죽시트"], cat:"인테리어" },
   cruise:         { label: "크루즈컨트롤",   icon: Gauge,         keywords: ["크루즈","어댑티브","ACC"], cat:"주행" },
-  alarm:          { label: "도난경보기",     icon: AlarmTriangle, keywords: ["도난","경보기"], cat:"안전" },
+  alarm:          { label: "도난경보기",     icon: AlertTriangle, keywords: ["도난","경보기"], cat:"안전" },
   airVent:        { label: "에어벤트",       icon: AirVent,       keywords: ["에어벤트"], cat:"편의" },
-  heatedSteering: { label: "열선핸들",       icon: SteeringWheel, keywords: ["열선핸들","핸들열선"], cat:"편의" },
+  heatedSteering: { label: "열선핸들",       icon: Disc, keywords: ["열선핸들","핸들열선"], cat:"편의" },
   fourWheel:      { label: "4WD",           icon: Snowflake,     keywords: ["4WD","AWD","사륜"], cat:"주행" },
   wireless:       { label: "무선충전/카플레이",icon: Wifi,        keywords: ["무선","카플레이","안드로이드오토"], cat:"인포테인먼트" },
   bluetooth:      { label: "블루투스",       icon: Bluetooth,     keywords: ["블루투스"], cat:"인포테인먼트" },

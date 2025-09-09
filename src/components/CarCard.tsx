@@ -3,13 +3,13 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Car } from '@/lib/types';
+import { Car } from '@/types/car';
 import { toUSD, toKm, fromNow } from '@/lib/format';
 import { authMock } from '@/lib/auth-mock';
 
 interface CarCardProps {
   car: Car;
-  onLikeToggle?: (carId: string, isLiked: boolean) => void;
+  onLikeToggle?: (carId: string | number, isLiked: boolean) => void;
 }
 
 export default function CarCard({ car, onLikeToggle }: CarCardProps) {
@@ -66,14 +66,14 @@ export default function CarCard({ car, onLikeToggle }: CarCardProps) {
           {/* Image */}
           <div className="relative w-full md:w-48 h-48 md:h-32 flex-shrink-0">
             <Image
-              src={car.images[0] || '/cars/sedan.svg'}
+              src={car.images?.[0] || '/cars/sedan.svg'}
               alt={`${car.brand} ${car.model}`}
               fill
               className="object-cover rounded-xl"
             />
             <div className="absolute top-2 left-2">
-              <span className={getListingTypeBadge(car.listingType)}>
-                {car.listingType}
+              <span className={getListingTypeBadge(car.listingType || 'General')}>
+                {car.listingType || 'General'}
               </span>
             </div>
             <button
@@ -121,7 +121,7 @@ export default function CarCard({ car, onLikeToggle }: CarCardProps) {
                 <span>{car.bodyType}</span>
               </div>
               <div className="flex justify-between items-center text-xs text-gray-500">
-                <span>{car.seller.name}</span>
+                <span>{car.seller?.name || '판매자'}</span>
                 <span>{fromNow(car.createdAt)}</span>
               </div>
             </div>

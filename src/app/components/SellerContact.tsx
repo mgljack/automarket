@@ -12,8 +12,10 @@ export default function SellerContact({ seller, children }: SellerContactProps) 
   const [isOpen, setIsOpen] = useState(false);
 
   const handleCopyPhone = () => {
-    navigator.clipboard.writeText(seller.phone);
-    alert('전화번호가 복사되었습니다.');
+    if (seller.phone) {
+      navigator.clipboard.writeText(seller.phone);
+      alert('전화번호가 복사되었습니다.');
+    }
   };
 
   return (
@@ -55,7 +57,7 @@ export default function SellerContact({ seller, children }: SellerContactProps) 
                 <div className="text-center">
                   <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                     <span className="text-primary-600 font-semibold text-xl">
-                      {seller.name.charAt(0)}
+                      {seller.name?.charAt(0) || '?'}
                     </span>
                   </div>
                   <h4 className="text-xl font-semibold text-gray-900">{seller.name}</h4>

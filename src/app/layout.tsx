@@ -28,7 +28,7 @@ export default function RootLayout({
           </main>
           <Footer />
           <AdBottomGate>
-            {/* 전역 하단 광고가 있다면 여기에 추가 */}
+            <div></div>
           </AdBottomGate>
         </div>
       </body>
